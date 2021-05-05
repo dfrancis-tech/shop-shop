@@ -47,10 +47,12 @@ The following image shows the web application's appearance and functionality.
 * [Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 * [Heroku](https://www.heroku.com/)
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas2)
-* Indexed DB
-* Redux
+* [Indexed DB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+* [Redux](https://redux.js.org/)
+* [React Context API](https://reactjs.org/docs/context.html)
 * [Stripe](https://www.npmjs.com/package/stripe)
 * [stripe.js](https://www.npmjs.com/package/@stripe/stripe-js)
+
 
 ## User Story
 <details>
