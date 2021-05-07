@@ -4,7 +4,7 @@ import { QUERY_CATEGORIES } from "../../utils/queries";
 import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
 
-function CategoryMenu({ setCategory }) {
+function CategoryMenu() {
   //const { data: categoryData } = useQuery(QUERY_CATEGORIES);
   //const categories = categoryData?.categories || [];
 
