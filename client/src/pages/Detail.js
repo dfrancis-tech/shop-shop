@@ -51,6 +51,13 @@ function Detail() {
     }
   };
 
+  const removeFromCart = () => {
+    dispatch({
+      type: REMOVE_FROM_CART,
+      _id: currentProduct._id
+    });
+  };
+
   return (
     <>
       {currentProduct ? (
@@ -72,11 +79,13 @@ function Detail() {
             <button onClick={addToCart}>
               Add to Cart
             </button>
-            <button>
+            <button 
+              disabled={!cart.find(p => p._id === currentProduct._id)} 
+              onClick={removeFromCart}
+            >
               Remove from Cart
             </button>
           </p>
-
           <img
             src={`/images/${currentProduct.image}`}
             alt={currentProduct.name}
