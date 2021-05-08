@@ -42,7 +42,7 @@ export function idbPromise(storeName, method, object) {
         console.log('error', e);
       };
 
-      //
+      // check which value we passed into the function as a 'method' to perform
       switch (method) {
         case 'put':
           store.put(object);
