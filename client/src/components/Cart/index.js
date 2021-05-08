@@ -36,12 +36,13 @@ const Cart = () => {
     <div className="cart">
       <div className="close" onClick={toggleCart}>[close]</div>
       <h2>Shopping Cart</h2>
-      <div>
-          <CartItem item={{name:'Camera', image:'camera.jpg', price:5, purchaseQuantity:3}} />
-          <CartItem item={{name:'Soap', image:'soap.jpg', price:6, purchaseQuantity:4}} />
-
+      {state.cart.length ? (
+        <div>
+          {state.cart.map(item => (
+            <CartItem key={item._id} item={item} />
+          ))}
           <div className="flex-row space-between">
-            <strong>Total: $0</strong>
+            <strong>Total: ${calculateTotal()}</strong>
             {
               Auth.loggedIn() ?
                 <button>
@@ -52,6 +53,14 @@ const Cart = () => {
             }
           </div>
         </div>
+      ) : (
+        <h3>
+          <span role="img" aria-label="shocked">
+            😱
+          </span>
+          You haven't added anything to your cart yet!
+        </h3>
+      )}
     </div>
   );
 };
