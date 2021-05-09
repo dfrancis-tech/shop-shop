@@ -14,7 +14,7 @@
 
 ## Live Project
 
-Visit [website]() and enjoy shopping!
+Visit [website](https://aqueous-eyrie-25049.herokuapp.com/) and enjoy shopping!
 
 ## Mock-Up
 The following image shows the web application's appearance and functionality.  
