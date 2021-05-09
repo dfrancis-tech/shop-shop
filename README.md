@@ -1,4 +1,4 @@
-#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shop-Shop
+#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shop-Shop
 
 [Summary](#Summary) &nbsp; &nbsp; [Introduction](#Introduction) &nbsp; &nbsp; [Mock-Up](#Mock-up) &nbsp; &nbsp; [Built With](#Built-With) &nbsp; &nbsp; [User Story](#User-Story) &nbsp; &nbsp; [Acceptance Criteria](#Acceptance-Criteria)  &nbsp; &nbsp; [Code Review](#Code-Review)   
 
@@ -10,7 +10,7 @@
 
 ## Introduction
  
- This website is e-commerce app built with a GraphQL API built with Apollo Server and Redux. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.    
+ This website is e-commerce app built with a GraphQL API built with Apollo Server and Redux. The app is built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.    
 
 ## Live Project
 
@@ -60,6 +60,12 @@ The following image shows the web application's appearance and functionality.
     AS AN online shopper
     I WANT to search for categorised items
     SO THAT I can shop in this website
+
+    User Stories to convert into Redux State Management System
+
+    AS a senior engineer working on an e-commerce platform
+    I WANT my platform to use Redux to manage global state instead of the Context API
+    SO THAT my website's state management is taken out of the React ecosystem
 </details>
 
 ## Acceptance Criteria
@@ -79,10 +85,24 @@ The following image shows the web application's appearance and functionality.
     THEN I am able to checkout the items added to the cart and able to see my order histories
     WHEN I checkout
     THEN I am able to pay with card and message is shown and automatically returned to homepage after three seconds
+
+    Acceptance criteria to convert to Redux State Management System
+
+    GIVEN an e-commerce platform that uses Redux to manage global state
+    WHEN I review the app’s store
+    THEN I find that the app uses a Redux store instead of the Context API
+    WHEN I review the way the React front end accesses the store
+    THEN I find that the app uses a Redux provider
+    WHEN I review the way the app determines changes to its global state
+    THEN I find that the app passes reducers to a Redux store instead of using the Context API
+    WHEN I review the way the app extracts state data from the store
+    THEN I find that the app uses Redux instead of the Context API
+    WHEN I review the way the app dispatches actions
+    THEN I find that the app uses Redux instead of the Context API
   
 </details>
 
 ## Code Review
 
-The completed project is uploaded in Github.  
+The completed project is uploaded in *** Github ***.  
 Repository link:  [GitHub](https://github.com/rosefrancis-tech/shop-shop)  
