@@ -1,4 +1,4 @@
-#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shop-Shop
+#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shop-Shop
 
 [Summary](#Summary) &nbsp; &nbsp; [Introduction](#Introduction) &nbsp; &nbsp; [Mock-Up](#Mock-up) &nbsp; &nbsp; [Built With](#Built-With) &nbsp; &nbsp; [User Story](#User-Story) &nbsp; &nbsp; [Acceptance Criteria](#Acceptance-Criteria)  &nbsp; &nbsp; [Code Review](#Code-Review)   
 
@@ -48,7 +48,7 @@ The following image shows the web application's appearance and functionality.
 * [Heroku](https://www.heroku.com/)
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas2)
 * [Indexed DB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
-* [React Context API](https://reactjs.org/docs/context.html)
+* [Redux](https://redux.js.org/)
 * [Stripe](https://www.npmjs.com/package/stripe)
 * [stripe.js](https://www.npmjs.com/package/@stripe/stripe-js)
 
