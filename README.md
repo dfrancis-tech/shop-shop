@@ -68,9 +68,17 @@ The following image shows the web application's appearance and functionality.
 
     GIVEN an e-commerce website
     WHEN I open the home page
-    THEN I am presented with options of category of items to shop from
-    WHEN I choose a category
+    THEN I am presented with options of category of items to shop from , shopping cart and options to login or signup
+    WHEN I choose a category of product
     THEN I am presented with all the items of that category, its price and an option to add it to cart
+    WHEN I view one product
+    THEN I am presented with a brief description of the product, its price and options to add and remove to/from the cart
+    WHEN I open the shopping cart
+    THEN it shows the list of items added and their inidiviadual and total price, ability to change the quantity and delete the item
+    WHEN I login
+    THEN I am able to checkout the items added to the cart and able to see my order histories
+    WHEN I checkout
+    THEN I am able to pay with card and message is shown and automatically returned to homepage after three seconds
   
 </details>
 
